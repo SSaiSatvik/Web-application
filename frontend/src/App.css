@@ -1,0 +1,22 @@
+.button {
+  background-image: radial-gradient( rgb(204, 207, 221),rgb(49, 188, 226)); 
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0px;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.body {
+  background-image: linear-gradient(rgb(224, 230, 244), rgb(94, 229, 236));
+  height:796px;
+  width:1536px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+
+}
+
+

@@ -1,0 +1,58 @@
+/* .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top:auto;
+    bottom: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 20px;
+} */
+/* 
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+/* .card {
+    margin-bottom: 30px;
+    margin-top: 30px;
+} */
+
+.left,
+.right {
+    position: auto;
+    left: 0;
+    right: 0;
+    height: 30%;
+}
+
+.left {
+    top: auto;
+    bottom: auto;
+}
+
+.right {
+    top:50%;
+    bottom: auto;
+}
+
+.pic {
+    background-image: url('./image.jpeg');
+    width: 225px;
+    height: 225px;
+    background-size: cover;
+    background-position: center;
+}
